@@ -1,10 +1,28 @@
 @charset "UTF-8";
 
+
+a
+{
+  text-decoration: none;
+  color:#000000;
+}
+
+a:hover
+{
+color:#e81d28;  
+}
+
 /* Class */
 
 .hidden
 {
   display: none;
+}
+
+.navItem
+{
+  align-content: space-between;
+  padding-left: 30px;
 }
 
 .footermenu
@@ -27,21 +45,27 @@
 {
   display: flex;
   flex-direction: row;
+  padding-top: 20px;
 }
 
 #logo
 {
   margin-right: auto;
-  height: 100px;
-  width: 250px;
-  background-color: #f0aeae;
+  padding-top: 20px;
+}
+
+#navCon
+{
+
 }
 
 #mainNav
 {
+  display: flex;
+  flex-direction: row;
   height: 100px;
-  width: 650px;
-  background-color: #23550b;
+  text-align: right;
+  align-items: center;
 }
 
 #featuredCon
@@ -137,16 +161,10 @@ width: 300px;
   background-color: #442916;
   margin-top: 20px;
 }
-#socialMedia {
-  display: flex;
+#socialMedia
+{
   flex-direction: row;
   width: 330px;
   justify-content: space-between;
   margin-bottom: 40px;
-}
-
-#socialMedia div {
-  width: 100px;
-  height: 50px;
-  background-color: #e0b1cf;
 }
