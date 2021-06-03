@@ -4,6 +4,7 @@
 ## all about our product
 
 ## Requirements
+all about tech stack what is it built with?
 
 ## MIT License
 Copyright 2021 Shirin Kazerooni
