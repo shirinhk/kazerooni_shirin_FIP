@@ -1,5 +1,27 @@
 @charset "UTF-8";
 
+h2
+{
+  font-family: 'Cantata One', serif;
+  font-weight: bold;
+  font-size:2em;
+  letter-spacing: .2em;
+}
+
+h3
+{
+  font-family: 'Cantata One', serif;
+  font-weight: bold;
+  font-size:1.5em;
+  margin-bottom: 20px;
+  color: #89c540;
+}
+
+p
+{
+  font-family: 'Cantata One', serif;
+  line-height: 1.8em;
+}
 
 a
 {
@@ -9,7 +31,7 @@ a
 
 a:hover
 {
-color:#e81d28;  
+color:#e81d28;
 }
 
 /* Class */
@@ -23,6 +45,21 @@ color:#e81d28;
 {
   align-content: space-between;
   padding-left: 30px;
+}
+
+.firstHeading
+{
+  color:#e81d28;
+}
+
+.button
+{
+  padding:10px 30px 10px 30px;
+  border-radius: 10px;
+  background-color: #89c540;
+  margin-top: 10px;
+  font-size: 1em;
+  color:#ffffff;
 }
 
 .footermenu
@@ -77,9 +114,7 @@ color:#e81d28;
 
 #featuredImage
 {
-  background-color: #3c4209;
   width: 960px;
-  height: 500px;
   margin: auto;
   margin-top: 20px;
 }
@@ -92,7 +127,11 @@ color:#e81d28;
   text-align: center;
 }
 
-/* promo stuff and social media */
+#featuredImageDesc
+{
+margin-top: 30px;
+}
+
 #promoCon
 {
   display: flex;
@@ -104,14 +143,14 @@ color:#e81d28;
 {
 flex-direction: column;
 width: 300px;
+margin-top: 100px;
 }
 
 #promoImage
 {
   margin-left: auto;
   width: 570px;
-  height: 400px;
-  background-color: #c7d6dc;
+  margin-top: 40px;
 }
 
 #featuredCon2
