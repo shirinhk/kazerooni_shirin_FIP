@@ -89,6 +89,12 @@ li{
   margin: 0 auto; /* quick center */
 }
 
+#topBar
+{
+  height:50px;
+  background-image: linear-gradient(#000000,#26582a);
+}
+
 #mainHeader
 {
   display: flex;
@@ -216,7 +222,7 @@ margin-top: 40px;
   flex-direction: row;
   width: 960px;
   margin: 0 auto;
-  background-image: linear-gradient(#000000, #26582a,#26582a,#000000);
+  background-image: linear-gradient(#26582a,#000000);
   margin-top: 40px;
   padding-top: 20px;
 }
@@ -228,9 +234,19 @@ margin-top: 40px;
   text-decoration: none;
 }
 
+#mainFooter a:hover
+{
+  color:#89c540;
+}
+
 #socialMedia
 {
   display: flex;
   flex-direction: row;
   width: 330px;
+  padding-top:50px;
+}
+#socialMedia li
+{
+  padding-left: 30px;
 }
