@@ -219,16 +219,12 @@ text-align: right;
 margin-top: 40px;
 }
 
-#promoImage2
-{
-
-}
-
 #mainFooter
 {
   display: flex;
   flex-direction: row;
   width: 960px;
+  height:200px;
   margin: 0 auto;
   background-image: linear-gradient(#26582a,#000000);
   margin-top: 40px;
