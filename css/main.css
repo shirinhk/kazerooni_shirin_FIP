@@ -1,0 +1,352 @@
+@charset "UTF-8";
+
+h2
+{
+  font-family: 'Cantata One', serif;
+  font-weight: bold;
+  font-size:2em;
+  letter-spacing: .2em;
+  color:#e81d28;
+  margin-bottom: 20px;
+}
+
+h3
+{
+  font-family: 'Cantata One', serif;
+  font-weight: bold;
+  font-size:1.5em;
+  margin-bottom: 20px;
+  color: #89c540;
+}
+
+h4
+{
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.1em;
+  text-align: center;
+}
+
+p
+{
+  font-family: 'Cantata One', serif;
+  line-height: 1.8em;
+}
+
+nav a
+{
+  text-decoration: none;
+  color:#000000;
+}
+
+li a:hover
+{
+color:#e81d28;
+}
+
+li{
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Class */
+
+.hidden
+{
+  display: none;
+}
+
+.navItem
+{
+  align-content: space-between;
+  padding-left: 30px;
+}
+
+.secondHeading
+{
+  letter-spacing: .5em;
+}
+
+.button
+{
+  padding:10px 30px 10px 30px;
+  border-radius: 10px;
+  background-color: #89c540;
+  margin-top: 20px;
+  font-size: 1em;
+  color:#ffffff;
+}
+
+.footermenu
+{
+  flex-direction:column;
+  width:320px;
+}
+
+.footermenu li
+{
+  padding-bottom: 20px;
+}
+
+
+
+/* ID */
+
+#container
+{
+  width: 960px;
+  padding: 0 10px 0 10px;
+  margin: 0 auto; /* quick center */
+}
+
+#topBar
+{
+  height:50px;
+  background-image: linear-gradient(#000000,#26582a);
+}
+
+#mainHeader
+{
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+}
+
+#logo
+{
+  margin-right: auto;
+  padding-top: 20px;
+}
+
+
+#mainNav
+{
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  text-align: right;
+  align-items: center;
+}
+
+#featuredCon
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#featuredImage
+{
+  width: 960px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+#featuredText
+{
+  /* background-color: #75687a; */
+  width: 700px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+#featuredImageDesc
+{
+margin-top: 30px;
+}
+
+#featuredImageDesc::first-letter
+{
+    font-size: 2em;
+}
+
+#featuredImageDesc::first-line
+{
+  	font-style: italic;
+    font-size: 1.3em;
+}
+
+#promoCon
+{
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  background-color: #26582a;
+  border-radius: 20px;
+}
+
+#promoText
+{
+flex-direction: column;
+width: 300px;
+margin-top: 100px;
+margin-left: 30px;
+color: #ffffff;
+}
+
+#promoImage
+{
+  margin-left: auto;
+  width: 570px;
+  padding: 20px;
+}
+
+#featuredCon2
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#promoCon2
+{
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+#promoText1
+{
+flex-direction: column;
+width: 450px;
+text-align: left;
+}
+
+#promoText2
+{
+flex-direction: column;
+width: 450px;
+text-align: right;
+margin-top: 40px;
+}
+
+#mainFooter
+{
+  display: flex;
+  flex-direction: row;
+  width: 960px;
+  height:200px;
+  margin: 0 auto;
+  background-image: linear-gradient(#26582a,#000000);
+  margin-top: 40px;
+  padding-top: 20px;
+}
+
+#mainFooter a
+{
+  color:#ffffff;
+  font-size: .7em;
+  text-decoration: none;
+}
+
+#mainFooter a:hover
+{
+  color:#89c540;
+}
+
+#socialMedia
+{
+  display: flex;
+  flex-direction: row;
+  width: 330px;
+  padding-top:50px;
+}
+#socialMedia li
+{
+  padding-left: 30px;
+}
+
+/*////////////page2////////////*/
+
+.products
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.products1
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.prods
+{
+  width:300px;
+  height:300px;
+  border-radius: 20px;
+  background-color: #396e35;
+  margin-top: 20px;
+}
+
+.prods a
+{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.products div:nth-child(2n)
+{
+  background-color: #a1a4a4;
+}
+
+.products div:nth-child(3n)
+{
+  background-color: #88a63d;
+}
+
+.products1 div:first-child
+{
+  background-color: #88a63d;
+}
+
+.products1 div:nth-child(3n)
+{
+  background-color: #a1a4a4;
+}
+
+.bottle
+{
+  height:250px;
+  margin-left: 110px;
+  margin-top: 10px;
+}
+
+.bottle:hover
+{
+  opacity: .5;
+}
+
+.productText
+{
+  color:#e02226;
+}
+
+#productsImage
+{
+  width: 960px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+#allProducts
+{
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+#productCon2
+{
+  display:flex;
+  flex-direction: row;
+}
+
+#procuctBox
+{
+  text-align: right;
+  margin-top: 40px;
+}
